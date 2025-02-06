@@ -22,6 +22,14 @@
   font-size: 13px;
 }
 
+.page-container {
+  display: flex;
+  min-height: 100vh;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--background-color);
+}
+
 .grid-container {
   display: grid;
   row-gap: 30px;
@@ -148,13 +156,6 @@
 }
 
 @media (min-width: 1260px) {
-  .page-container {
-    display: flex;
-    min-height: 100vh;
-    justify-content: center;
-    align-items: center;
-    background-color: var(--background-color);
-  }
   .grid-container {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
